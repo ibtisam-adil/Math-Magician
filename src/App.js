@@ -1,8 +1,13 @@
 import './App.css';
+import Calculator from './components/calculator/Calculator';
+import Quotes from './components/quotes/Quotes';
 
 function App() {
   return (
-    <h1>hi</h1>
+    <>
+      <Calculator />
+      <Quotes />
+    </>
   );
 }
 
