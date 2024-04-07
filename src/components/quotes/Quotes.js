@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// https://api.api-ninjas.com/v1/quotes?category=amazing
-// 'X-Api-Key'
-// RiQI1WJFhIoZRLKOdwBBvw==136watXpgRe7CSDf
 
 const Quotes = () => {
   const [fetchedData, setFetchedData] = useState(null);
