@@ -35,10 +35,10 @@
   color: #333;
 }
 
-.row:nth-child(6) .btns:first-child {
-  width: 12.4rem;
-}
-
 .row .btns:last-child {
   background-color: #f90;
+}
+
+.row:nth-child(6) .btns:first-child {
+  width: 12.4rem;
 }
