@@ -1,0 +1,18 @@
+.navbar {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #87CEEB;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+}
