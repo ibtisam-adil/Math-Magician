@@ -1,9 +1,9 @@
 .navbar {
-  display: flex; 
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
-  background-color: #87CEEB;
+  background-color: #87ceeb;
   color: white;
   font-size: 1.8rem;
   font-weight: 600;
