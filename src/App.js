@@ -1,12 +1,14 @@
 import './App.css';
-import Calculator from './components/calculator/Calculator';
-import Quotes from './components/quotes/Quotes';
+// import Calculator from './components/calculator/Calculator';
+// import Quotes from './components/quotes/Quotes';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
     <>
-      <Calculator />
-      <Quotes />
+      <Navbar />
+      {/* <Calculator /> */}
+      {/* <Quotes /> */}
     </>
   );
 }
