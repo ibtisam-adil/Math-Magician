@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './quotes.css';
 
 const Quotes = () => {
   const [fetchedData, setFetchedData] = useState(null);
@@ -17,12 +18,12 @@ const Quotes = () => {
   }, []);
   return (
     fetchedData ? (
-      <div className="quote-author">
-        {fetchedData.quote}
-        {fetchedData.author}
+      <div className="quote">
+        <p className="quote-detail">{fetchedData.quote}</p>
+        <p>{fetchedData.author}</p>
       </div>
     ) : (
-      <div>Loading...</div>
+      <div className="loading">Loading...</div>
     )
   );
 };
