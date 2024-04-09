@@ -1,0 +1,35 @@
+.home {
+  background: linear-gradient(to right, #9cd9a0 79%, #fff 120%);
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.welcome-card {
+  background-color: #fcf6d8;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  padding: 5rem;
+  text-align: center;
+}
+
+.main-h {
+  font-family: Chivo, sans-serif;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  color: green;
+}
+
+.home-p {
+  color: #333;
+  font-size: 2.3rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.home-ul {
+  margin-left: 30px;
+  text-align: left;
+}
