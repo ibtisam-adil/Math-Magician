@@ -10,6 +10,6 @@ html {
 
 body {
   height: 100%;
-  background: linear-gradient(to right, #9cd9a0 79%, #ffffff 120%);
+  background: linear-gradient(to right, #9cd9a0 79%, #fff 120%);
   overflow: hidden;
 }
