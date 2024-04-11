@@ -29,14 +29,15 @@
   gap: 2rem;
   padding: 1.5rem;
   margin-top: 1rem;
-  background: linear-gradient(
-    to bottom right,
-    #141d2e,
-    #1b2a44b9,
-    #1e3354,
-    #1f3a61,
-    #141d2e
-  );
+  background:
+    linear-gradient(
+      to bottom right,
+      #141d2e,
+      #1b2a44b9,
+      #1e3354,
+      #1f3a61,
+      #141d2e
+    );
   border-radius: 3rem;
   z-index: 2;
   background-color: rgba(20, 29, 46, 0.7);

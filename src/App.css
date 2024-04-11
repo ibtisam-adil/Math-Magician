@@ -86,6 +86,7 @@ body {
   .nav-wrapper .navbar {
     font-size: 2rem;
   }
+
   .nav-wrapper .links {
     gap: 2.5rem;
   }
@@ -163,19 +164,19 @@ body {
 }
 
 @media (max-width: 768px) {
-    /* HOME */
-    .home .welcome-card {
-      max-width: 450px;
-      padding: 1.9rem;
-    }
-  
-    .home .main-h {
-      font-size: 2.5rem;
-    }
-  
-    .home .home-p {
-      font-size: 1.4rem;
-    }
+  /* HOME */
+  .home .welcome-card {
+    max-width: 450px;
+    padding: 1.9rem;
+  }
+
+  .home .main-h {
+    font-size: 2.5rem;
+  }
+
+  .home .home-p {
+    font-size: 1.4rem;
+  }
 
   /* CALCULATOR CSS */
   body .hero-wrapper {
@@ -247,6 +248,7 @@ body {
     padding: 1.8rem 4rem;
     font-size: 1.6rem;
   }
+
   .nav-wrapper .links {
     gap: 2rem;
   }
