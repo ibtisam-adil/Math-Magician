@@ -5,6 +5,7 @@
 
 html {
   height: 100vh;
+  width: 100%;
   font-size: 62.5%;
 }
 
@@ -308,16 +309,10 @@ body {
 
   /* CIRCLES  */
   .circle {
-    width: 15rem;
-    height: 15rem;
-    top: 1%;
-    right: -7%;
+    visibility: hidden;
   }
 
   .c-2 {
-    width: 15rem;
-    height: 15rem;
-    bottom: -11%;
-    left: 12%;
+    visibility: hidden;
   }
 }
