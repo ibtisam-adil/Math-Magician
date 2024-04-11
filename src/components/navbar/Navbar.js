@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import './navbar.css';
 
 const Navbar = () => (
-  <div>
+  <div className="nav-wrapper">
     <nav className="navbar">
       <div className="math-fans">
         <p>Math Fans</p>

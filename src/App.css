@@ -1,15 +1,323 @@
+@import url("./components/calculator/calculator.css");
+
 * {
   padding: 0;
   margin: 0;
 }
 
 html {
-  height: 100%;
+  height: 100vh;
   font-size: 62.5%;
 }
 
 body {
-  height: 100%;
-  background: linear-gradient(to right, #9cd9a0 79%, #fff 120%);
   overflow: hidden;
+  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.circle {
+  width: 28rem;
+  height: 28rem;
+  border-radius: 50%;
+  border: 13px solid orangered;
+  position: absolute;
+  top: -7%;
+  right: -5%;
+}
+
+.c-2 {
+  width: 28rem;
+  height: 28rem;
+  border-radius: 50%;
+  border: 13px solid orangered;
+  position: absolute;
+  bottom: -23%;
+  left: 8%;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+  /* HOME */
+  .home .welcome-card {
+    max-width: 700px;
+    padding: 4rem;
+  }
+
+  .home .main-h {
+    font-size: 3.2rem;
+  }
+
+  .home .home-p {
+    font-size: 2.2rem;
+  }
+
+  /* CALCULATOR */
+  .hero-wrapper .heading {
+    font-size: 2.3rem;
+  }
+
+  .hero-wrapper .standard {
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    font-size: 1.6rem;
+  }
+
+  .hero-wrapper .display {
+    height: 8.5rem;
+    font-size: 2.8rem;
+  }
+
+  .hero-wrapper .hero {
+    gap: 1.5rem;
+  }
+
+  .circle {
+    width: 23rem;
+    height: 23rem;
+  }
+
+  .c-2 {
+    width: 23rem;
+    height: 23rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* NAVBAR CSS */
+  .nav-wrapper .navbar {
+    font-size: 2rem;
+  }
+  .nav-wrapper .links {
+    gap: 2.5rem;
+  }
+
+  /* HOME */
+  .home .welcome-card {
+    padding: 3rem;
+    max-width: 600px;
+  }
+
+  .home .main-h {
+    font-size: 3rem;
+  }
+
+  .home .home-p {
+    font-size: 1.9rem;
+  }
+
+  /* CALCULATOR CSS */
+  body .hero-wrapper {
+    gap: 4rem;
+  }
+
+  .hero-wrapper .hero {
+    margin-top: 4.5rem;
+    gap: 1rem;
+  }
+
+  .hero-wrapper .standard {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .hero-wrapper .display {
+    height: 7rem;
+    font-size: 2.8rem;
+  }
+
+  .hero-wrapper .heading {
+    width: 35%;
+    font-size: 2rem;
+  }
+
+  .hero-wrapper .btns {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .hero-wrapper .row:nth-child(7) .btns:first-child {
+    width: 13rem;
+    border-radius: 2rem;
+  }
+
+  /* QUOTES */
+  body .quote {
+    font-size: 2rem;
+  }
+
+  /* CIRCLES  */
+  .circle {
+    width: 20rem;
+    height: 20rem;
+    top: -2%;
+    right: -7%;
+    border: 11px solid orangered;
+  }
+
+  .c-2 {
+    width: 20rem;
+    height: 20rem;
+    bottom: -17%;
+    left: 10%;
+    border: 11px solid orangered;
+  }
+}
+
+@media (max-width: 768px) {
+    /* HOME */
+    .home .welcome-card {
+      max-width: 450px;
+      padding: 1.9rem;
+    }
+  
+    .home .main-h {
+      font-size: 2.5rem;
+    }
+  
+    .home .home-p {
+      font-size: 1.4rem;
+    }
+
+  /* CALCULATOR CSS */
+  body .hero-wrapper {
+    padding: 5rem;
+    gap: 3rem;
+  }
+
+  .hero-wrapper .hero {
+    margin-top: 4.5rem;
+    gap: 1rem;
+  }
+
+  .hero-wrapper .standard {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .hero-wrapper .display {
+    height: 6rem;
+    font-size: 2.5rem;
+  }
+
+  .hero-wrapper .heading {
+    width: 38%;
+    font-size: 1.5rem;
+  }
+
+  .hero-wrapper .btns {
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 1.5rem;
+  }
+
+  .hero-wrapper .row:nth-child(7) .btns:first-child {
+    width: 10rem;
+    border-radius: 2rem;
+  }
+
+  /* QUOTES */
+  body .quote {
+    font-size: 1.8rem;
+  }
+
+  .quote .quote-detail {
+    text-align: left;
+  }
+
+  /* CIRCLES  */
+  .circle {
+    width: 17rem;
+    height: 17rem;
+    top: -1%;
+    right: -9%;
+    border: 9px solid orangered;
+  }
+
+  .c-2 {
+    width: 17rem;
+    height: 17rem;
+    bottom: -15%;
+    left: 10%;
+    border: 9px solid orangered;
+  }
+}
+
+@media (max-width: 535px) {
+  /* NAVBAR CSS */
+  .nav-wrapper .navbar {
+    padding: 1.8rem 4rem;
+    font-size: 1.6rem;
+  }
+  .nav-wrapper .links {
+    gap: 2rem;
+  }
+
+  /* HOME */
+  .home .welcome-card {
+    padding: 1.6rem;
+    max-width: 360px;
+  }
+
+  .home .main-h {
+    font-size: 1.8rem;
+  }
+
+  .home .home-p {
+    font-size: 1.1rem;
+  }
+
+  /* CALCULATOR CSS */
+  body .hero-wrapper {
+    padding: 3rem;
+    gap: 3rem;
+  }
+
+  .hero-wrapper .standard {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .hero-wrapper .display {
+    height: 4rem;
+    font-size: 2rem;
+  }
+
+  .hero-wrapper .heading {
+    width: 42%;
+    font-size: 1.3rem;
+  }
+
+  .hero-wrapper .btns {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+  }
+
+  .hero-wrapper .row:nth-child(7) .btns:first-child {
+    width: 8rem;
+    border-radius: 2rem;
+  }
+
+  /* QUOTES */
+  body .quote {
+    font-size: 1.5rem;
+  }
+
+  .quote .quote-detail {
+    text-align: left;
+  }
+
+  /* CIRCLES  */
+  .circle {
+    width: 15rem;
+    height: 15rem;
+    top: 1%;
+    right: -7%;
+  }
+
+  .c-2 {
+    width: 15rem;
+    height: 15rem;
+    bottom: -11%;
+    left: 12%;
+  }
 }

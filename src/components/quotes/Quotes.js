@@ -19,8 +19,19 @@ const Quotes = () => {
   return (
     fetchedData ? (
       <div className="quote">
-        <p className="quote-detail">{fetchedData.quote}</p>
-        <p>{fetchedData.author}</p>
+        <p className="quote-detail">
+          &quot;
+          {' '}
+          {fetchedData.quote}
+          {' '}
+          &quot;
+        </p>
+        <div className="line" />
+        <p className="quote-author">
+          -
+          {fetchedData.author}
+          .
+        </p>
       </div>
     ) : (
       <div className="loading">Loading...</div>

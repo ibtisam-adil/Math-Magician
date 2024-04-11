@@ -1,5 +1,4 @@
 .home {
-  background: linear-gradient(to right, #9cd9a0 79%, #fff 120%);
   align-items: center;
   display: flex;
   height: 100vh;
@@ -7,23 +6,31 @@
 }
 
 .welcome-card {
-  background-color: #fcf6d8;
+  background: linear-gradient(
+    to bottom right,
+    #141d2e,
+    #1b2a44,
+    #1e3354,
+    #1f3a61,
+    #141d2e
+  );
   border-radius: 20px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   max-width: 800px;
   padding: 5rem;
   text-align: center;
+  z-index: 1;
 }
 
 .main-h {
   font-family: Chivo, sans-serif;
   font-size: 3.5rem;
   margin-bottom: 20px;
-  color: green;
+  color: white;
 }
 
 .home-p {
-  color: #333;
+  color: rgb(227, 225, 225);
   font-size: 2.3rem;
   line-height: 1.5;
   margin-bottom: 15px;
@@ -33,3 +40,4 @@
   margin-left: 30px;
   text-align: left;
 }
+
