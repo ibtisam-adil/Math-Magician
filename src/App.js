@@ -10,6 +10,8 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
+        <div className="circle" />
+        <div className="c-2" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -17,6 +19,7 @@ function App() {
           <Route path="/quotes" element={<Quotes />} />
         </Routes>
       </BrowserRouter>
+
     </>
   );
 }

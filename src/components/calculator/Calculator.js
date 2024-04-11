@@ -26,6 +26,9 @@ const Calculator = () => {
   };
   return (
     <div className="hero-wrapper">
+      <div className="heading">
+        <h2>Time to Crunch Some Numbers!</h2>
+      </div>
       <div className="hero">
         <div className="standard">
           <i className="bx bx-menu-alt-left" />
@@ -63,12 +66,6 @@ const Calculator = () => {
           <Button btnName="." clickEvent={handleClick} />
           <Button btnName="=" clickEvent={handleClick} />
         </div>
-      </div>
-      <div className="circle-container">
-        <div className="circle" />
-      </div>
-      <div className="heading">
-        <h2>Time to Crunch Some Numbers!</h2>
       </div>
     </div>
   );
