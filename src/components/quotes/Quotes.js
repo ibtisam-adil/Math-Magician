@@ -18,20 +18,22 @@ const Quotes = () => {
   }, []);
   return (
     fetchedData ? (
-      <div className="quote">
-        <p className="quote-detail">
-          &quot;
-          {' '}
-          {fetchedData.quote}
-          {' '}
-          &quot;
-        </p>
-        <div className="line" />
-        <p className="quote-author">
-          -
-          {fetchedData.author}
-          .
-        </p>
+      <div className="quote-container">
+        <div className="quote">
+          <p className="quote-detail">
+            &quot;
+            {' '}
+            {fetchedData.quote}
+            {' '}
+            &quot;
+          </p>
+          <div className="line" />
+          <p className="quote-author">
+            -
+            {fetchedData.author}
+            .
+          </p>
+        </div>
       </div>
     ) : (
       <div className="loading">Loading...</div>

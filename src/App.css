@@ -5,11 +5,11 @@
 
 html {
   height: 100vh;
-  width: 100%;
   font-size: 62.5%;
 }
 
 body {
+  padding: 0 4rem;
   overflow: hidden;
   background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
@@ -19,9 +19,10 @@ body {
   height: 28rem;
   border-radius: 50%;
   border: 13px solid orangered;
-  position: absolute;
-  top: -7%;
-  right: -5%;
+  position: fixed;
+  top: -4%;
+  right: -7%;
+  z-index: -1;
 }
 
 .c-2 {
@@ -29,9 +30,10 @@ body {
   height: 28rem;
   border-radius: 50%;
   border: 13px solid orangered;
-  position: absolute;
-  bottom: -23%;
-  left: 8%;
+  position: fixed;
+  bottom: -21%;
+  left: 7%;
+  z-index: -1;
 }
 
 /* MEDIA QUERIES */
@@ -309,10 +311,18 @@ body {
 
   /* CIRCLES  */
   .circle {
-    visibility: hidden;
+    width: 14rem;
+    height: 14rem;
+    top: 0%;
+    right: -7%;
+    border: 9px solid orangered;
   }
 
   .c-2 {
-    visibility: hidden;
+    width: 14rem;
+    height: 14rem;
+    bottom: -12%;
+    left: 13%;
+    border: 9px solid orangered;
   }
 }
