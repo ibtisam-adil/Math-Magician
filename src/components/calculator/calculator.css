@@ -24,7 +24,8 @@
 
 .hero {
   position: relative;
-  min-width: 295px;
+  /* min-width: 295px; */
+  width: 295px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,7 +65,8 @@
   height: 10rem;
   color: white;
   background-color: #0b0b0b;
-  width: 100%;
+  width: 96%;
+  padding: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -77,6 +79,7 @@
   font-family: Chivo, sans-serif;
   color: #fff;
   padding: 0.7rem;
+  overflow-x: auto;
 }
 
 .row {
