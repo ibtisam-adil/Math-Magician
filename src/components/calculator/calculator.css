@@ -24,7 +24,6 @@
 
 .hero {
   position: relative;
-  /* min-width: 295px; */
   width: 295px;
   display: flex;
   flex-direction: column;
