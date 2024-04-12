@@ -112,6 +112,7 @@ body {
   }
 
   .hero-wrapper .hero {
+    min-width: 270px;
     margin-top: 4.5rem;
     gap: 1rem;
   }
@@ -186,6 +187,7 @@ body {
   }
 
   .hero-wrapper .hero {
+    min-width: 205px;
     margin-top: 4.5rem;
     gap: 1rem;
   }
@@ -272,6 +274,10 @@ body {
   body .hero-wrapper {
     padding: 3rem;
     gap: 3rem;
+  }
+
+  .hero-wrapper .hero {
+    min-width: 170px;
   }
 
   .hero-wrapper .standard {
