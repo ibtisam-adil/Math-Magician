@@ -1,5 +1,6 @@
 .hero-wrapper {
   position: relative;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -23,6 +24,7 @@
 
 .hero {
   position: relative;
+  min-width: 295px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,6 +70,7 @@
   justify-content: end;
   font-size: 3rem;
   border-radius: 10px;
+  overflow-x: auto;
 }
 
 .result {
