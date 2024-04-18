@@ -36,7 +36,9 @@ const Quotes = () => {
         </div>
       </div>
     ) : (
-      <div className="loading">Loading...</div>
+      <div className="quote-container">
+        <div className="loading">Loading ...</div>
+      </div>
     )
   );
 };
