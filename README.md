@@ -56,7 +56,7 @@ This project builds upon the core functionality of the previously developed Calc
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="To-do List"></a>
+## 🚀 Live Demo <a name="Calculator"></a>
 
 [@Math-Magician](https://ibtisam-calculator-app.netlify.app)
 This is live version of my Math-Magician project.you can click on this link to watch live demo
